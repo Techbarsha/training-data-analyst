@@ -13,7 +13,7 @@ You were recently hired as a Machine Learning Engineer at a startup movie review
 
 To build and deploy a high performance machine learning model with limited data quickly, you will walk through training and deploying a custom TensorFlow BERT sentiment classifier for online predictions on Google Cloud's [Vertex AI](https://cloud.google.com/vertex-ai) platform. Vertex AI is Google Cloud's next generation machine learning development platform where you can leverage the latest ML pre-built components and AutoML to significantly enhance your development productivity, scale your workflow and decision making with your data, and accelerate time to value.
 
-![Vertex AI: Challenge Lab](./images/vertex-challenge-lab.png "Vertex Challenge Lab")
+![Vertex AI: Challenge Lab](https://github.com/Techbarsha/training-data-analyst/blob/main/vertex-challenge-lab.png "Vertex Challenge Lab")
 
 First, you will progress through a typical experimentation workflow where you will build your model from pre-trained BERT components from TF-Hub and `tf.keras` classification layers to train and evaluate your model in a Vertex Notebook. You will then package your model code into a Docker container to train on Google Cloud's Vertex AI. Lastly, you will define and run a Kubeflow Pipeline on Vertex Pipelines that trains and deploys your model to a Vertex Endpoint that you will query for online predictions.
 
